@@ -1,0 +1,16 @@
+{
+  "atomic_files": {
+    "chianti_continuum": {
+      "path": "ssw\\packages\\xray\\dbase\\chianti\\chianti_cont_1_250_v71.sav",
+      "sha256": "aadf4355931b4c241ac2cd5669e89928615dc1b55c9fce49a155b70915a454dd"
+    },
+    "chianti_lines": {
+      "path": "ssw\\packages\\xray\\dbase\\chianti\\chianti_lines_1_10_v71.sav",
+      "sha256": "2046d818efec207a83e9c5cc6ba4a5fa8574bf8c2bd8a6bb9801e4b8a2a0c677"
+    },
+    "xray_abundances": {
+      "path": "ssw\\packages\\xray\\dbase\\chianti\\xray_abun_file.genx",
+      "sha256": "92c0e1f9a83da393cc38840752fda5a5b44c5b18a4946e5bf12c208771fe0fd3"
+    }
+  }
+}

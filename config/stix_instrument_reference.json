@@ -1,0 +1,216 @@
+{
+  "recorded_date": "2026-10-19",
+  "detectors": [
+    {
+      "detector_id": 1,
+      "label": "3c",
+      "trigger_group": 1
+    },
+    {
+      "detector_id": 2,
+      "label": "5c",
+      "trigger_group": 1
+    },
+    {
+      "detector_id": 3,
+      "label": "10a",
+      "trigger_group": 8
+    },
+    {
+      "detector_id": 4,
+      "label": "8c",
+      "trigger_group": 8
+    },
+    {
+      "detector_id": 5,
+      "label": "4b",
+      "trigger_group": 3
+    },
+    {
+      "detector_id": 6,
+      "label": "5a",
+      "trigger_group": 2
+    },
+    {
+      "detector_id": 7,
+      "label": "3a",
+      "trigger_group": 2
+    },
+    {
+      "detector_id": 8,
+      "label": "7b",
+      "trigger_group": 7
+    },
+    {
+      "detector_id": 9,
+      "label": "cfl",
+      "trigger_group": 7
+    },
+    {
+      "detector_id": 10,
+      "label": "bkg",
+      "trigger_group": 6
+    },
+    {
+      "detector_id": 11,
+      "label": "1a",
+      "trigger_group": 3
+    },
+    {
+      "detector_id": 12,
+      "label": "2a",
+      "trigger_group": 4
+    },
+    {
+      "detector_id": 13,
+      "label": "1b",
+      "trigger_group": 4
+    },
+    {
+      "detector_id": 14,
+      "label": "9b",
+      "trigger_group": 5
+    },
+    {
+      "detector_id": 15,
+      "label": "6a",
+      "trigger_group": 5
+    },
+    {
+      "detector_id": 16,
+      "label": "9a",
+      "trigger_group": 6
+    },
+    {
+      "detector_id": 17,
+      "label": "2c",
+      "trigger_group": 14
+    },
+    {
+      "detector_id": 18,
+      "label": "1c",
+      "trigger_group": 13
+    },
+    {
+      "detector_id": 19,
+      "label": "2b",
+      "trigger_group": 13
+    },
+    {
+      "detector_id": 20,
+      "label": "10b",
+      "trigger_group": 12
+    },
+    {
+      "detector_id": 21,
+      "label": "8a",
+      "trigger_group": 12
+    },
+    {
+      "detector_id": 22,
+      "label": "10c",
+      "trigger_group": 11
+    },
+    {
+      "detector_id": 23,
+      "label": "4c",
+      "trigger_group": 14
+    },
+    {
+      "detector_id": 24,
+      "label": "7a",
+      "trigger_group": 15
+    },
+    {
+      "detector_id": 25,
+      "label": "4a",
+      "trigger_group": 15
+    },
+    {
+      "detector_id": 26,
+      "label": "8b",
+      "trigger_group": 10
+    },
+    {
+      "detector_id": 27,
+      "label": "6b",
+      "trigger_group": 10
+    },
+    {
+      "detector_id": 28,
+      "label": "7c",
+      "trigger_group": 11
+    },
+    {
+      "detector_id": 29,
+      "label": "3b",
+      "trigger_group": 16
+    },
+    {
+      "detector_id": 30,
+      "label": "5b",
+      "trigger_group": 16
+    },
+    {
+      "detector_id": 31,
+      "label": "6c",
+      "trigger_group": 9
+    },
+    {
+      "detector_id": 32,
+      "label": "9c",
+      "trigger_group": 9
+    }
+  ],
+  "livetime": {
+    "tau_s": 1.01e-05,
+    "eta_s": 1.1e-06,
+    "beta": 0.9405910326086957,
+    "beta_derivation": "1 - ((Lx*Ly - 0.5*Sx*Sy)/(Dx*Dy))/2",
+    "geometry_mm": {
+      "Dx": 8.8,
+      "Dy": 9.2,
+      "Lx": 2.2,
+      "Ly": 4.6,
+      "Sx": 1.1,
+      "Sy": 0.91
+    },
+    "limitations": "Uniform illumination over detector pair; ignores first hit on a small pixel; not a pile-up spectral correction"
+  },
+  "sources": [
+    {
+      "path": "ssw/so/stix/dbase/grid/stx_subc_params.txt",
+      "sha256": "6b4967c4537addfe418d6faadf6d2fdf44ccc233a4db7c110d18da92599ad87b"
+    },
+    {
+      "path": "ssw/so/stix/idl/processing/livetime/stx_adg_sc_table.pro",
+      "sha256": "6cbb4b0d860c095e911cb06f0ddcfdf00826160de73c0e93bb6be830fa400e36"
+    },
+    {
+      "path": "ssw/so/stix/idl/processing/livetime/stx_livetime_fraction.pro",
+      "sha256": "748cebd6240576ebc9c6a65c9817f77aa708810e625169909fb485ae77b243e9"
+    },
+    {
+      "path": "ssw/so/stix/idl/processing/livetime/stx_cpd_livetime.pro",
+      "sha256": "003b3f717a43a586d5357826e10edeeb6d238ac38509c83d2495b377c662aae9"
+    },
+    {
+      "path": "ssw/so/stix/idl/processing/livetime/stx_pileup_corr_parameter.pro",
+      "sha256": "9795cb5c9635e7d64ac6c60a1ad26205266654f3da91721d205af94f02c60199"
+    },
+    {
+      "path": "ssw/so/stix/idl/processing/subcollimator/stx_construct_subcollimator.pro",
+      "sha256": "32bada486867a872e1564314c5ead17b3252414b12a31d9f3e6c0ff55394482c"
+    },
+    {
+      "path": "ssw/so/stix/idl/util/stx_label2det_ind.pro",
+      "sha256": "73c5eddb46f25f2934f231a1161c0382c8f74ec9074b86c1ac6db8c96a53e214"
+    },
+    {
+      "path": "ssw/so/stix/idl/io/stx_read_pixel_data_fits_file.pro",
+      "sha256": "e5cecb3acf0faa6d2023141a4e3c5ffb46fd494cb3ad47b1fbfb9b99f1306713"
+    }
+  ],
+  "stixpy_reference": "https://stixpy.readthedocs.io/en/stable/_modules/stixpy/calibration/livetime.html",
+  "note": "Snapshot of installed definitions. No IDL execution or runtime STIXpy comparison claimed."
+}
